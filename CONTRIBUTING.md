@@ -10,11 +10,12 @@
 ### Steps:
 
 1. Download [Unity Hub](https://unity.com/download) 
+2. When opening Unity Hub for the first time, it will prompt you to install the latest version of Unity, _skip installation_ and proceed to connect your account for your personal license in the next step.
+3.  Go to **Installs** > **Install Editor** > Install Unity 2021.3.20f1 with :exclamation:Android Build Support:exclamation: and it's complementary modules.
+    - If anything fails, restart Unity Hub as administrator.
+    - Keep Visual Studio 2019 checked.
 
-2. Install Unity 2021.3.20f1 with:exclamation:Android Build Support:exclamation:
-    - If anything fails, restart Unity Hub as administrator 
+4. Clone the git repository onto your local machine.
 
-3. Clone the git repository
-
-4. You can now open the cloned project from Unity Hub.
+5. You can now open the cloned project from Unity Hub.
 
