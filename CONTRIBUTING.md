@@ -38,12 +38,5 @@
 
 6. In Unity, go to **Edit** > **Project Settings** > **Editor**, and change the Device setting to Any Android Device.
 
-7. Now, when you run the project, you can test it on your phone. If you are encountering errors, restart Unity.
 
 
-## Preparing
-1. Set the Aspect Ratio (from the Game tab) to 16:9 Landscape.
-
-2. Go to **Edit** > **Project Settings** > **Editor**, and change the Resolution setting to Normal.
-
-3. Go to **Edit** > **Project Settings** > **Player** > **Android(tab)**, and in the Resolution and Presentation tab check off the Portrait and Portrait Upside Down.
