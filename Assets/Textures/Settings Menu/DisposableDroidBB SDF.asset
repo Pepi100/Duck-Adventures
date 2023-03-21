@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!28 &-1276215729068508221
+=======
+--- !u!28 &-9057379323171194958
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,7 +51,11 @@ Texture2D:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 --- !u!21 &-297749868205481632
+=======
+--- !u!21 &-1598803666104565268
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -80,7 +88,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< HEAD
         m_Texture: {fileID: -1276215729068508221}
+=======
+        m_Texture: {fileID: -9057379323171194958}
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -165,11 +177,19 @@ MonoBehaviour:
   m_Name: DisposableDroidBB SDF
   m_EditorClassIdentifier: 
   hashCode: 2062373725
+<<<<<<< HEAD
   material: {fileID: -297749868205481632}
   materialHashCode: -1670044067
   m_Version: 1.1.0
   m_SourceFontFileGUID: 4ef98423300f15e48a68851ffe5f5ae4
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 4ef98423300f15e48a68851ffe5f5ae4, type: 3}
+=======
+  material: {fileID: -1598803666104565268}
+  materialHashCode: -1670044067
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: bb549436b35a3cd4c89b7c4facfb22f9
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: bb549436b35a3cd4c89b7c4facfb22f9, type: 3}
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -2021,7 +2041,11 @@ MonoBehaviour:
     m_GlyphIndex: 99
     m_Scale: 1
   m_AtlasTextures:
+<<<<<<< HEAD
   - {fileID: -1276215729068508221}
+=======
+  - {fileID: -9057379323171194958}
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0
@@ -2687,7 +2711,11 @@ MonoBehaviour:
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
+<<<<<<< HEAD
     sourceFontFileGUID: 4ef98423300f15e48a68851ffe5f5ae4
+=======
+    sourceFontFileGUID: bb549436b35a3cd4c89b7c4facfb22f9
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
     pointSizeSamplingMode: 0
     pointSize: 95
     padding: 5
