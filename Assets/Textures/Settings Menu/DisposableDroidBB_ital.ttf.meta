@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: e02eb9b408f084b4ba8bba3488402777
+=======
 guid: 92f3ab4a18aa59c4eb54ef493add8873
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +14,15 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - DisposableDroid BB
+<<<<<<< HEAD
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6fd0f7d927a3a1643b55cea476bde96e, type: 3}
+  - {fileID: 12800000, guid: 1cc72b922cebb5d499b1ec01b822346d, type: 3}
+  - {fileID: 12800000, guid: 823f2e3425f41254ebd871c7b9a9088c, type: 3}
+  - {fileID: 12800000, guid: d4b34add6dd8a414d9025b4994cbfeab, type: 3}
+=======
   fallbackFontReferences: []
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
