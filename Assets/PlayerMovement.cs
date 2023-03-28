@@ -23,31 +23,63 @@ public class PlayerMovement : MonoBehaviour
     {
 
         // Time.deltaTime = time since the last frame
+        float maxspeed = 2f;
+
+        if(Input.GetKey("s"))
+            {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f, -2.0f); 
+            // if (GetComponent<Rigidbody2D>().velocity.magnitude > maxspeed)
+            //     GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity.normalized * maxspeed;
+            }
+        if(Input.GetKey("a"))
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-2.0f, 0.0f); 
+         
+        if(Input.GetKey("d"))
+            GetComponent<Rigidbody2D>().velocity = new Vector2(2.0f, 0.0f);
 
 
-        if( Input.GetKey("d") )
+        if(Input.GetKey("w"))
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f, 2.0f); 
+
+        if(Input.GetKeyUp("s")) 
         {
-            rb.AddForce(transform.right * 100 * Time.deltaTime);
-
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0; 
         }
-
-        if (Input.GetKey("a"))
+        if(Input.GetKeyUp("a")) 
         {
-            rb.AddForce(transform.right *-100 * Time.deltaTime);
-
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
         }
-
-
-        if (Input.GetKey("w"))
+        if(Input.GetKeyUp("d")) 
         {
-            rb.AddForce(transform.up * 100 * Time.deltaTime);
-
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
         }
-
-        if (Input.GetKey("s"))
+        if(Input.GetKeyUp("w")) 
         {
-            rb.AddForce(transform.up * -100 * Time.deltaTime);
-
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
+        }
+        if(Input.GetKeyDown("s")) 
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0; 
+        }
+        if(Input.GetKeyDown("a")) 
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
+        }
+        if(Input.GetKeyDown("d")) 
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
+        }
+        if(Input.GetKeyDown("w")) 
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
         }
 
     }

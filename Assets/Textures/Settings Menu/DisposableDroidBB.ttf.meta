@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 4ef98423300f15e48a68851ffe5f5ae4
+=======
+guid: bb549436b35a3cd4c89b7c4facfb22f9
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - DisposableDroid BB
+  fallbackFontReferences:
+<<<<<<< HEAD
+  - {fileID: 12800000, guid: 6fd0f7d927a3a1643b55cea476bde96e, type: 3}
+  - {fileID: 12800000, guid: e02eb9b408f084b4ba8bba3488402777, type: 3}
+  - {fileID: 12800000, guid: 1cc72b922cebb5d499b1ec01b822346d, type: 3}
+  - {fileID: 12800000, guid: 823f2e3425f41254ebd871c7b9a9088c, type: 3}
+  - {fileID: 12800000, guid: a85aa9fd5dcaf4945a1079764b6d8bf0, type: 3}
+  - {fileID: 12800000, guid: d4b34add6dd8a414d9025b4994cbfeab, type: 3}
+=======
+  - {fileID: 12800000, guid: 6af2b2389c3970545b15d7895d869030, type: 3}
+  - {fileID: 12800000, guid: 0683cf1f8de859d40aee9c0eb38ac3ed, type: 3}
+  - {fileID: 12800000, guid: 92f3ab4a18aa59c4eb54ef493add8873, type: 3}
+>>>>>>> 6bebbd88cee907fdfde68495343ac3923d444b00
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

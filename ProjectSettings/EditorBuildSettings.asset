@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: c3dd6fdb8d9f6294895bb0aa724db7c1
+  - enabled: 1
+    path: Assets/Scenes/First Island.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
