@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     {
 
         // Time.deltaTime = time since the last frame
-        float maxspeed = 2f;
+        float maxspeed = 10f;
 
         if(Input.GetKey("s"))
             {
