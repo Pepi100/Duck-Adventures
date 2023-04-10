@@ -1,5 +1,14 @@
 # Duck Adventures
 
+## Team Members:
+  - Cristiana Niculiță 244
+  - David Pătrânjel 251
+  - Diana Muscalu 244
+  - Eric Morosan 252
+  - Radu Nedelcu 252
+
+
+
 ## The greatest game 
 
 ### Technologies used:
