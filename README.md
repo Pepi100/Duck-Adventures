@@ -18,7 +18,7 @@ All the user stories can be found <a href= "https://docs.google.com/document/d/1
 
 ## UML - State diagram
 
-<img src="gallery/uml.jpeg" alt="UML State Diagram" />
+<img src="./gallery/uml.jpeg" alt="UML State Diagram" />
 
 
 
