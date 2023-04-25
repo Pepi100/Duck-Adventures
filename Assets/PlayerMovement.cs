@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public Rigidbody2D rb;
+    public Joystick joystick; 
     float inputHorizontal;
     float inputVertical;
 
     //player
-    float speed = 10f;
+    float speed = 8f;
     float speedLimiter = 0.7f;
     bool facingLeft = true;
 
@@ -18,13 +18,20 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        Application.targetFrameRate = 100;
     }
 
 
     void Update()
     {
+        /*for pc*/
+        /*
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
+        */
+        /*for mobile*/
+        inputHorizontal = joystick.Horizontal;
+        inputVertical = joystick.Vertical;
     }
 
 
@@ -63,70 +70,3 @@ public class PlayerMovement : MonoBehaviour
     }
 
 }
-
-    // Update is called once per frame
-//     void FixedUpdate()
-//     {
-
-//         // Time.deltaTime = time since the last frame
-//         //float maxspeed = 2f;
-
-//         if(Input.GetKey("s"))
-//             {
-//             GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f, -2.0f); 
-//             // if (GetComponent<Rigidbody2D>().velocity.magnitude > maxspeed)
-//             //     GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity.normalized * maxspeed;
-//             }
-//         if(Input.GetKey("a"))
-//             GetComponent<Rigidbody2D>().velocity = new Vector2(-2.0f, 0.0f); 
-         
-//         if(Input.GetKey("d"))
-//             GetComponent<Rigidbody2D>().velocity = new Vector2(2.0f, 0.0f);
-
-
-//         if(Input.GetKey("w"))
-//             GetComponent<Rigidbody2D>().velocity = new Vector2(0.0f, 2.0f); 
-
-//         if(Input.GetKeyUp("s")) 
-//         {
-//             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//             //GetComponent<Rigidbody2D>().angularVelocity = 0; 
-//         }
-//         if(Input.GetKeyUp("a")) 
-//         {
-//             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//             //GetComponent<Rigidbody2D>().angularVelocity = 0;
-//         }
-//         if(Input.GetKeyUp("d")) 
-//         {
-//             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//             //GetComponent<Rigidbody2D>().angularVelocity = 0;
-//         }
-//         if(Input.GetKeyUp("w")) 
-//         {
-//             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//            // GetComponent<Rigidbody2D>().angularVelocity = 0;
-//         }
-//         // if(Input.GetKeyDown("s")) 
-//         // {
-//         //     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//         //     GetComponent<Rigidbody2D>().angularVelocity = 0; 
-//         // }
-//         // if(Input.GetKeyDown("a")) 
-//         // {
-//         //     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//         //     GetComponent<Rigidbody2D>().angularVelocity = 0;
-//         // }
-//         // if(Input.GetKeyDown("d")) 
-//         // {
-//         //     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//         //     GetComponent<Rigidbody2D>().angularVelocity = 0;
-//         // }
-//         // if(Input.GetKeyDown("w")) 
-//         // {
-//         //     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-//         //     GetComponent<Rigidbody2D>().angularVelocity = 0;
-//         // }
-
-//     }
-// }
