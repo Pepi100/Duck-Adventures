@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
 
     public System.Action killed;
 
+    //public Animator animator;
+
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -17,6 +19,7 @@ public class Enemy : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("Bullet"))
         {
+            //animator.setFloat("dead", 1);
             this.killed.Invoke();
             this.gameObject.SetActive(false);
         }
