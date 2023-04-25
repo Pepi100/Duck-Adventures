@@ -36,19 +36,19 @@ public class FlyScript : MonoBehaviour
 
 
 
-
+        
     }
 
 
     private void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("ScoreTrigger"))
+        if(col.gameObject.CompareTag("ScoreTrigger"))
         {
             score++;
             scoreText.text = score.ToString();
         }
 
-
+      Debug.Log(scoreText.text);
 
     }
 

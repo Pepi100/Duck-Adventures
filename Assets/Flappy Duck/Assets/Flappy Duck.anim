@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Flappy Duck Animation
+  m_Name: Flappy Duck
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1127715860, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+      value: {fileID: -497887527, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
     - time: 0.083333336
-      value: {fileID: -422020568, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+      value: {fileID: -1296619639, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
     - time: 0.16666667
-      value: {fileID: -1801338833, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+      value: {fileID: 1196320377, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
     - time: 0.25
-      value: {fileID: -2006902471, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+      value: {fileID: -1257967174, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1127715860, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
-    - {fileID: -422020568, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
-    - {fileID: -1801338833, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
-    - {fileID: -2006902471, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+    - {fileID: -497887527, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+    - {fileID: -1296619639, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+    - {fileID: 1196320377, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
+    - {fileID: -1257967174, guid: e5921e7d1b2e17044ab3879132b4e42b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
