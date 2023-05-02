@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
         float maxx;
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
-        */
         /*for mobile*/
         inputHorizontal = joystick.Horizontal;
         inputVertical = joystick.Vertical;

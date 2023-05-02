@@ -82,6 +82,7 @@ public class Enemies : MonoBehaviour
 
     private void Start()
     {
+        Screen.orientation = ScreenOrientation.Portrait;
         InvokeRepeating(nameof(BulletAttack), this.bulletAttackRate, this.bulletAttackRate);
     }
 
