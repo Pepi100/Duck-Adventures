@@ -6,11 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
     public Rigidbody2D rb;
+    public Joystick joystick; 
     float inputHorizontal;
     float inputVertical;
 
     //player
-    float speed = 10f;
+    float speed = 8f;
     float speedLimiter = 0.7f;
     bool facingLeft = false;
 
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        Application.targetFrameRate = 100;
     }
 
 
@@ -26,6 +28,10 @@ public class PlayerMovement : MonoBehaviour
         float maxx;
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
+        */
+        /*for mobile*/
+        inputHorizontal = joystick.Horizontal;
+        inputVertical = joystick.Vertical;
         if (Mathf.Abs(inputVertical) > Mathf.Abs(inputHorizontal))
             maxx = Mathf.Abs(inputVertical);
         else
