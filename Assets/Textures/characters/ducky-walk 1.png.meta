@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a10cfab425519fb4cacda0e76c0db697
+guid: aa4c579865779754c8094bd6eca59094
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,211 +117,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle (36x36)_0
+      name: ducky-walk 1_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 15
         y: 0
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f51fae17506c63e49bfb43ade4e331a4
-      internalID: -883856267
+      spriteID: 90621bdcb1f90f44e8dc3c059301dd76
+      internalID: 378110849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle (36x36)_1
+      name: ducky-walk 1_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 63
         y: 0
-        width: 34
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec51f3b4ffa901944a6c9619705dba03
-      internalID: 983073050
+      spriteID: 4b95c477f6a2a3a4ea22722da68cc7e1
+      internalID: 784393351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle (36x36)_2
+      name: ducky-walk 1_2
       rect:
         serializedVersion: 2
-        x: 73
+        x: 111
         y: 0
-        width: 34
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe86b4d0255fdd34c8aa53f085d9e6f9
-      internalID: -1804080987
+      spriteID: e61583bb7f12adc48830307d60565907
+      internalID: -1668310233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle (36x36)_3
+      name: ducky-walk 1_3
       rect:
         serializedVersion: 2
-        x: 110
+        x: 159
         y: 0
-        width: 32
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ccdf5b757ba17947bab77391c82bb47
-      internalID: 404514807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle (36x36)_4
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 0
-        width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71d0ee53d1a53a947825806025653c64
-      internalID: -1506355529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle (36x36)_5
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 0
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 775814c6fb9e5cf43abc5a520392db86
-      internalID: 1881362667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle (36x36)_6
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcb12d7676673ca419671104e41c5c5b
-      internalID: 803171253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle (36x36)_7
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f22d3a8611d792b4ba66ca07f07d4507
-      internalID: -1780949022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle (36x36)_8
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d080489d8a662594ab51eb6a842653b1
-      internalID: -892060541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle (36x36)_9
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c99d02c7c1d5953479b0bf819fa27cd6
-      internalID: -78831614
+      spriteID: 2dc12684c51550d4d88380b81ba42097
+      internalID: 9556838
       vertices: []
       indices: 
       edges: []
@@ -337,16 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle (36x36)_0: -883856267
-      Idle (36x36)_1: 983073050
-      Idle (36x36)_2: -1804080987
-      Idle (36x36)_3: 404514807
-      Idle (36x36)_4: -1506355529
-      Idle (36x36)_5: 1881362667
-      Idle (36x36)_6: 803171253
-      Idle (36x36)_7: -1780949022
-      Idle (36x36)_8: -892060541
-      Idle (36x36)_9: -78831614
+      ducky-walk 1_0: 378110849
+      ducky-walk 1_1: 784393351
+      ducky-walk 1_2: -1668310233
+      ducky-walk 1_3: 9556838
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
