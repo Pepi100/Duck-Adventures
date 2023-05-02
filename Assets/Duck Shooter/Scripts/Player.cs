@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.gameObject.layer == LayerMask.NameToLayer("Missile"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Lose");
         }
     }
 

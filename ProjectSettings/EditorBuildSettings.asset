@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Duck Shooter/Scenes/Shoot.unity
+    guid: f0e4ee466a518364fa899f2daab20fe3
+  - enabled: 1
+    path: Assets/Duck Shooter/Scenes/Lose.unity
+    guid: 3d0a89a97d7b49244a8e015890b5d634
+  - enabled: 1
+    path: Assets/Duck Shooter/Scenes/Win.unity
+    guid: 512514d965f92564188711bbe01bcb80
+  - enabled: 1
     path: Assets/Flappy Duck/Scenes/Menu.unity
     guid: 8ad81f4e6a0135143bde9f426d8a15f0
   m_configObjects:

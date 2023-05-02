@@ -30,7 +30,7 @@ public class Enemies : MonoBehaviour
         this.amountKilled++; 
         if(this.amountKilled >= this.totalEnemies)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Win");
         }
     }
 
