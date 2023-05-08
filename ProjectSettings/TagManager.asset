@@ -15,9 +15,9 @@ TagManager:
   - Enemy
   - Bullet
   - Missile
-  - 
-  - 
-  - 
+  - Platform
+  - Obstacle
+  - Barrier
   - 
   - 
   - 
