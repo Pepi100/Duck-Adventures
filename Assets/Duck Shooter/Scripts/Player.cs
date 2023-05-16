@@ -5,14 +5,25 @@ public class Player : MonoBehaviour
 {
     public Bullet laserPrefab;
 
+    public Rigidbody2D rb;
+
     public float speed = 5.0f;
 
     private bool _bulletActive;
+
+    bool facingLeft = false;
+
+    float inputHorizontal;
+    float inputVertical;
+
+    public Animator animator;
 
     private void BulletDestroyed()
     {
         _bulletActive = false;
     }
+
+
 
     private void Shoot()
     {
@@ -35,7 +46,11 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        float maxx;
+        inputHorizontal = Input.GetAxisRaw("Horizontal");
+        inputVertical = Input.GetAxisRaw("Vertical");
+
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             this.transform.position += Vector3.left * this.speed * Time.deltaTime;
         }
@@ -48,8 +63,33 @@ public class Player : MonoBehaviour
         {
             Shoot();
         }
+
+        maxx = Mathf.Abs(inputHorizontal);
+        animator.SetFloat("speed", maxx);
     }
 
-    
+    void FixedUpdate()
+    {
+        if (inputHorizontal > 0 && facingLeft)
+        {
+            Flip();
+        }
+        if (inputHorizontal < 0 && !facingLeft)
+        {
+            Flip();
+        }
+
+    }
+
+    void Flip()
+    {
+        var player = GameObject.FindGameObjectWithTag("Player");
+        Vector3 currentScale = player.transform.localScale;
+        currentScale.x *= -1;
+        player.transform.localScale = currentScale;
+        facingLeft = !facingLeft;
+    }
+
+
 
 }
