@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverMenu: {fileID: 615942664}
+  scoreText: {fileID: 841830138}
+  livesText: {fileID: 341157375}
+  timeText: {fileID: 884446888}
 --- !u!4 &8845987
 Transform:
   m_ObjectHideFlags: 0
@@ -1946,7 +1949,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341157373}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1001 &358349717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5843,7 +5846,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841830136}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1 &884446886
 GameObject:
   m_ObjectHideFlags: 0
@@ -5978,7 +5981,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884446886}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1001 &946730606
 PrefabInstance:
   m_ObjectHideFlags: 0
