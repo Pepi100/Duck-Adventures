@@ -21,7 +21,7 @@ public class BackgroundScroll : MonoBehaviour
     {
 
         transform.Translate(Vector3.left*speed*Time.deltaTime);
-        if (transform.position.x < -16f)
+        if (transform.position.x < -17f)
         {
             transform.position = StartPosition;
         }
