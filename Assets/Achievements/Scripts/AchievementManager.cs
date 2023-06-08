@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class AchievementManager : MonoBehaviour
 {
 
     private Achievement[] achievements;
     private void Awake()
     {
         ///Get all the achievement elements in the hierarchy, sorted by name
-        achievements = FindObjectsOfType<Achievement>();
+        achievements = FindObjectsOfType<Achievement>(); 
         System.Array.Sort(achievements, (a, b) => a.name.CompareTo(b.name));
 
         foreach (Achievement achievement in achievements)
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         ///Get all the achievement ids from the player data and check if active
-        Dictionary<int, bool> achivsIds = PlayerData.instance.getAchievements();
+        bool[] achivsIds = PlayerData.instance.getAchievements();
 
         for(int i = 0; i <= 5; ++i){
             if(achivsIds[i+1]){
