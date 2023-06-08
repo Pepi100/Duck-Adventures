@@ -58,6 +58,8 @@ public class FlyScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        scoreText.text = "Ai murit, fraiere";
+        // scoreText.text = "Ai murit, fraiere";
+        rb.bodyType= RigidbodyType2D.Static;
+
     }
 }
