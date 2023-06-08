@@ -6,11 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame ()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
 
+    public void PlayGame()
+    {
+        Debug.Log("am dat play");
+        SceneManager.LoadScene("First Island");
+    }
+    public void Settings()
+    {
+        SceneManager.LoadScene("Setting Menu");
+    }
     public void QuitGame()
     {
         Debug.Log("quit!");
