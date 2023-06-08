@@ -24,7 +24,7 @@ public class GoToScene : MonoBehaviour
         {
             SceneManager.LoadScene(sceneToLoad);
         }
-        
+
     }
 }
 

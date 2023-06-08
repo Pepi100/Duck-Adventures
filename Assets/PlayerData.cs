@@ -9,7 +9,7 @@ public class PlayerData : MonoBehaviour
     public static PlayerData instance;
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -21,24 +21,23 @@ public class PlayerData : MonoBehaviour
     }
     #endregion
 
-    private bool[] achievementsIds = new bool[]{false, false, false, false, false, false, false};
+    private bool[] achievementsIds = new bool[] { false, false, false, false, false, false, false };
     private int x, y;
-    private bool[] gamesDone = new bool[]{false, false, false, false, false};
-    private int islandNumber = 1; 
+    private bool[] gamesDone = new bool[] { false, false, false, false, false };
+    private int islandNumber = 1;
     ///MUST ADD INVENTORY
 
     ///Call this method with the id of the achievement to mark as checked
     public void Add(int idAchiv)
     {
-        if(!achievementsIds[idAchiv])
+        if (!achievementsIds[idAchiv])
             achievementsIds[idAchiv] = true;
     }
 
     ///Deletes all the achievents. Useful for restart
     public void RemoveAllAchievemnts()
     {
-        for(int i = 0; i <= 6; ++i)
-            achievementsIds[i] = false;
+        for (int i = 0; i <= 6; ++i) achievementsIds[i] = false;
     }
 
     ///Getter method
