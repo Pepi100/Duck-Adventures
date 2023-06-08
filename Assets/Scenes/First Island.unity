@@ -418,6 +418,7 @@ GameObject:
   - component: {fileID: 473563133}
   - component: {fileID: 473563132}
   - component: {fileID: 473563134}
+  - component: {fileID: 473563135}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -507,7 +508,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -560,6 +561,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6875, y: 1.125}
   m_EdgeRadius: 0
+--- !u!114 &473563135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473563129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6635c4f449b1e4b8dd1882b4a4ff7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Crossy Duck
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4043,7 +4057,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 774761699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b17ce8497bb3d714cafd5ffdea1cd21b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6635c4f449b1e4b8dd1882b4a4ff7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Menu
@@ -105464,9 +105478,9 @@ GameObject:
   - component: {fileID: 1577419735}
   - component: {fileID: 1577419734}
   - component: {fileID: 1577419733}
-  - component: {fileID: 1577419736}
   - component: {fileID: 1577419738}
   - component: {fileID: 1577419737}
+  - component: {fileID: 1577419739}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Untagged
@@ -105562,19 +105576,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1577419736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577419732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63627b34f0d965840adb2104cf5f9dc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: Second Island
 --- !u!61 &1577419737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -105622,6 +105623,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1577419739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577419732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6635c4f449b1e4b8dd1882b4a4ff7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Second Island
 --- !u!1 &1701162824
 GameObject:
   m_ObjectHideFlags: 0
@@ -108254,7 +108268,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2087849336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df073fb2e3f76b242816be382c509f22, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6635c4f449b1e4b8dd1882b4a4ff7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Shoot

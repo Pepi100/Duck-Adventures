@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/First Island.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
+    path: Assets/Crossy Duck/Scenes/Crossy Duck.unity
+    guid: c2ca572462ec58245a7d5196f0ba2b83
+  - enabled: 1
     path: Assets/Scenes/Setting Menu.unity
     guid: 791c08bb5a6a795488f014eeda6406ea
   - enabled: 1
