@@ -28,18 +28,18 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        if(! _bulletActive)
+        if (!_bulletActive)
         {
             Bullet bullet = Instantiate(this.laserPrefab, this.transform.position, Quaternion.identity);
             bullet.destroyed += BulletDestroyed;
             _bulletActive = true;
         }
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.gameObject.layer == LayerMask.NameToLayer("Missile"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.gameObject.layer == LayerMask.NameToLayer("Missile"))
         {
             SceneManager.LoadScene("Lose");
         }
@@ -55,12 +55,12 @@ public class Player : MonoBehaviour
         {
             this.transform.position += Vector3.left * this.speed * Time.deltaTime;
         }
-        else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             this.transform.position += Vector3.right * this.speed * Time.deltaTime;
         }
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             audioSrc.Play();
             Shoot();
