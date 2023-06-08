@@ -13,10 +13,6 @@ public class PlayerData : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-                    
-            /*TO DO salvat datele*/
-            for(int i = 1; i <= 6; ++i)
-                achievementsIds.Add(i, false);
         }
         else
         {
@@ -25,7 +21,10 @@ public class PlayerData : MonoBehaviour
     }
     #endregion
 
-    private Dictionary<int, bool> achievementsIds = new Dictionary<int, bool>();
+    private bool[] achievementsIds = new bool[]{false, false, false, false, false, false, false};
+    private int x, y;
+    private bool[] gamesDone = new bool[]{false, false, false, false, false};
+    private int islandNumber = 1; 
     ///MUST ADD INVENTORY
 
     ///Call this method with the id of the achievement to mark as checked
@@ -38,12 +37,18 @@ public class PlayerData : MonoBehaviour
     ///Deletes all the achievents. Useful for restart
     public void RemoveAllAchievemnts()
     {
-        for(int i = 1; i <= 6; ++i)
+        for(int i = 0; i <= 6; ++i)
             achievementsIds[i] = false;
     }
 
     ///Getter method
-    public Dictionary<int, bool> getAchievements(){
+    public bool[] getAchievements()
+    {
         return achievementsIds;
+    }
+
+    public bool[] getGamesDone()
+    {
+        return gamesDone;
     }
 }
