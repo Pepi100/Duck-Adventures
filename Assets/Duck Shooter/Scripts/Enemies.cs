@@ -17,7 +17,7 @@ public class Enemies : MonoBehaviour
 
     private Vector3 _direction = Vector2.right;
 
-    public int amountKilled {get; private set;}
+    public int amountKilled { get; private set; }
 
     public int amountAlive => this.totalEnemies - this.amountKilled;
 
@@ -27,8 +27,8 @@ public class Enemies : MonoBehaviour
 
     private void EnemyKilled()
     {
-        this.amountKilled++; 
-        if(this.amountKilled >= this.totalEnemies)
+        this.amountKilled++;
+        if (this.amountKilled >= this.totalEnemies)
         {
             SceneManager.LoadScene("Win");
         }
@@ -36,19 +36,19 @@ public class Enemies : MonoBehaviour
 
     private void Awake()
     {
-        for(int row = 0; row < this.rows; row++)
+        for (int row = 0; row < this.rows; row++)
         {
             float width = 3.0f * (this.columns - 1);
             float height = 3.0f * (this.rows - 1);
             Vector2 centering = new Vector2(-width / 2, -height / 2);
             Vector3 rowPosition = new Vector3(centering.x, centering.y + (row * 3.0f), 0.0f);
-            for(int col = 0; col < this.columns; col++)
+            for (int col = 0; col < this.columns; col++)
             {
                 Enemy enemy = Instantiate(this.prefabs[row], this.transform);
                 enemy.killed += EnemyKilled;
                 Vector3 position = rowPosition;
                 position.x += col * 3.0f;
-                enemy.transform.localPosition = position; 
+                enemy.transform.localPosition = position;
             }
         }
     }
@@ -64,14 +64,14 @@ public class Enemies : MonoBehaviour
 
     private void BulletAttack()
     {
-        foreach(Transform enemy in this.transform)
+        foreach (Transform enemy in this.transform)
         {
-            if(!enemy.gameObject.activeInHierarchy)
+            if (!enemy.gameObject.activeInHierarchy)
             {
                 continue;
             }
 
-            if(Random.value < (1.0f / (float)this.amountAlive))
+            if (Random.value < (1.0f / (float)this.amountAlive))
             {
                 Instantiate(this.bulletPrefab, enemy.position, Quaternion.identity);
                 break;
@@ -80,7 +80,7 @@ public class Enemies : MonoBehaviour
 
     }
 
-    private void Start()
+    public void Start()
     {
         InvokeRepeating(nameof(BulletAttack), this.bulletAttackRate, this.bulletAttackRate);
     }
