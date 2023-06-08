@@ -9,11 +9,13 @@ public class PlayerMovement : MonoBehaviour
     public Joystick joystick; 
     float inputHorizontal;
     float inputVertical;
+    public AudioSource audioSrc;
 
     //player
     float speed = 8f;
     float speedLimiter = 0.7f;
     bool facingLeft = false;
+    bool isMoving = false;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,17 @@ public class PlayerMovement : MonoBehaviour
         else
             maxx = Mathf.Abs(inputHorizontal);
         animator.SetFloat("speed", maxx);
+        if (maxx > 0)
+            isMoving = true;    
+        else
+            isMoving = false;   
+        if (isMoving)
+        {
+            if (!audioSrc.isPlaying)
+                audioSrc.Play();
+        }
+        else
+            audioSrc.Stop();
     }
 
 
