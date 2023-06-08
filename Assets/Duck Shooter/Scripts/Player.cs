@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     float inputVertical;
 
     public Animator animator;
+    public AudioSource audioSrc;
 
     private void BulletDestroyed()
     {
@@ -61,7 +62,9 @@ public class Player : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            audioSrc.Play();
             Shoot();
+
         }
 
         maxx = Mathf.Abs(inputHorizontal);

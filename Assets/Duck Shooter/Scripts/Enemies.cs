@@ -25,6 +25,8 @@ public class Enemies : MonoBehaviour
 
     public float percentKilled => (float)this.amountKilled / (float)this.totalEnemies;
 
+    public AudioSource audioSrc;
+
     private void EnemyKilled()
     {
         this.amountKilled++;
@@ -73,6 +75,7 @@ public class Enemies : MonoBehaviour
 
             if (Random.value < (1.0f / (float)this.amountAlive))
             {
+                audioSrc.Play();
                 Instantiate(this.bulletPrefab, enemy.position, Quaternion.identity);
                 break;
             }
