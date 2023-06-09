@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Flappy Duck/Scenes/Win2.unity
     guid: be1dd8f87f1f0f74f9bca984a88f3009
+  - enabled: 1
+    path: Assets/Crossy Duck/Scenes/Win3.unity
+    guid: 941b7d54e1d80144f97b4c464b458308
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 0380b06fd9da0cd4f9f6b549f792b55a, type: 2}
