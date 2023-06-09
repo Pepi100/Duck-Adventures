@@ -14,6 +14,7 @@ public class IslandsTransitions : MonoBehaviour
         if(gamesDone[1] && gamesDone[2] && gamesDone[3])
             SceneManager.LoadScene(sceneToLoad);
         else{
+            
             Debug.Log("nu sunt jocurile gata");
         }
     }
