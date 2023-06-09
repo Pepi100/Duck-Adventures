@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class AchievementManager : MonoBehaviour
 {
 
     private Achievement[] achievements;
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         ///Get all the achievement ids from the player data and check if active
         Dictionary<int, bool> achivsIds = PlayerData.instance.getAchievements();
-
+        
         for(int i = 0; i <= 5; ++i){
             if(achivsIds[i+1]){
                 achievements[i].enabled = true;

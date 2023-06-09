@@ -6,7 +6,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private Duck duck;
+    private Demo duck;
     private Home[] homes;
 
     public GameObject gameOverMenu;
@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         homes = FindObjectsOfType<Home>();
-        duck = FindObjectOfType<Duck>();
+        duck = FindObjectOfType<Demo>();
     }
 
     private void Start()
@@ -77,11 +77,11 @@ public class GameManager : MonoBehaviour
 
         if(lives > 0)
         {
-            Invoke(nameof(Respawn), 1f);
+            Invoke(nameof(Respawn), 0.1f);
         }
         else 
         {
-            Invoke(nameof(GameOver), 1f);
+            Invoke(nameof(GameOver), 0.1f);
         }
     }
 
@@ -100,10 +100,15 @@ public class GameManager : MonoBehaviour
 
         while(!playAgain)
         {
-            if(Input.GetKeyDown(KeyCode.Return))
+
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 playAgain = true;
             }
+            // if(Input.GetKeyDown(KeyCode.Return))
+            // {
+            //     playAgain = true;
+            // }
 
             yield return null;
         }
@@ -126,7 +131,7 @@ public class GameManager : MonoBehaviour
         }
         else 
         {
-            Invoke(nameof(Respawn), 1f);
+            Invoke(nameof(Respawn), 0.1f);
         }
     }
 

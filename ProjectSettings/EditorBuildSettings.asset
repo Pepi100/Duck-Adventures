@@ -30,4 +30,5 @@ EditorBuildSettings:
     path: Assets/Flappy Duck/Scenes/Menu.unity
     guid: 8ad81f4e6a0135143bde9f426d8a15f0
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 99f9893083028eb4ba68f08645adc244, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 0380b06fd9da0cd4f9f6b549f792b55a, type: 2}

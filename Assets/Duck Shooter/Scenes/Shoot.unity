@@ -1166,6 +1166,7 @@ GameObject:
   - component: {fileID: 2120443996}
   - component: {fileID: 2120443995}
   - component: {fileID: 2120443998}
+  - component: {fileID: 2120443999}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -1278,5 +1279,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e86009c45e0a0940892a85680758e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swipeListener: {fileID: 2120443999}
   laserPrefab: {fileID: -4262348156943483496, guid: 15ee36871ff050648a05ae58784c8333, type: 3}
-  speed: 5
+  speed: 120
+--- !u!114 &2120443999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120443994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c52040e0d356884a866f616474f7057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnSwipeCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSwipe:
+    m_PersistentCalls:
+      m_Calls: []
+  _sensetivity: 10
+  _continuousDetection: 0
+  _swipeDetectionMode: 3

@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GG.Infrastructure.Utils.Swipe;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private SwipeListener swipeListener;
+
     public Bullet laserPrefab;
 
-    public float speed = 5.0f;
+    public float speed = 40.0f;
 
     private bool _bulletActive;
 
@@ -33,23 +36,36 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void OnEnable()
     {
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            this.transform.position += Vector3.left * this.speed * Time.deltaTime;
-        }
-        else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            this.transform.position += Vector3.right * this.speed * Time.deltaTime;
-        }
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Shoot();
-        }
+        swipeListener.OnSwipe.AddListener(OnSwipe);
     }
 
-    
+    private void OnSwipe(string swipe)
+    {
+        Debug.Log(swipe); 
+         
+        switch(swipe)
+        {
+            case "Left":
+                this.transform.position += Vector3.left * this.speed * Time.deltaTime;
+                break;
+            case "Right":
+                this.transform.position += Vector3.right * this.speed * Time.deltaTime;
+                break;
+            default:
+                Shoot();
+                break;
+        }
+        // if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        // {
+        //     Shoot();
+        // }
+    }
+
+    private void OnDisable()
+    {
+        swipeListener.OnSwipe.RemoveListener(OnSwipe);
+    }
 
 }
