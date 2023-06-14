@@ -11,6 +11,7 @@ public class DOTPlayerData
     private int x, y;
     private bool[] gamesDone;
     private int islandNumber;
+    private bool firstTimeDuckShooter;
 
     public DOTPlayerData ()
     {
@@ -20,6 +21,7 @@ public class DOTPlayerData
         y = player.getY();
         gamesDone = player.getGamesDone();
         islandNumber = player.getIslandNumber();
+        firstTimeDuckShooter = player.getFTDS();
     }
 
     public void createSingleton()
@@ -30,6 +32,7 @@ public class DOTPlayerData
         player.setY(y);
         player.setGamesDone(gamesDone);
         player.setIslandNumber(islandNumber);
+        player.setFTDS(firstTimeDuckShooter);
     }
 
     

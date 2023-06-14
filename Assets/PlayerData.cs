@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class PlayerData:MonoBehaviour
+public class PlayerData : MonoBehaviour
 {
     #region Singleton
     public static PlayerData instance;
@@ -21,10 +21,13 @@ public class PlayerData:MonoBehaviour
     }
     #endregion
 
-    private bool[] achievementsIds = new bool[]{false, false, false, false, false, false, false};
+    private bool[] achievementsIds = new bool[] { false, false, false, false, false, false, false };
     private int x = 0, y = 0;
-    private bool[] gamesDone = new bool[]{false, false, false, false, false};
-    private int islandNumber = 2; 
+    private bool[] gamesDone = new bool[] { false, false , false, false, false };
+                            //           1= Flappy, 2=PingPong, 3=Crossy, 4=Shooter
+    private int islandNumber = 2;
+    private bool firstTryDuckShooter = false;
+
 
     ///Call this method with the id of the achievement to mark as checked
 
@@ -37,6 +40,11 @@ public class PlayerData:MonoBehaviour
     {
         if (!achievementsIds[idAchiv])
             achievementsIds[idAchiv] = true;
+    }
+
+    public void Remove(int idAchiv)
+    {
+        achievementsIds[idAchiv] = false;
     }
 
     ///Deletes all the achievents. Useful for restart
@@ -76,6 +84,11 @@ public class PlayerData:MonoBehaviour
         return islandNumber;
     }
 
+    public bool getFTDS()
+    {
+        return firstTryDuckShooter;
+    }
+
     public void setAchievements(bool[] newAchievementsIds)
     {
         achievementsIds = newAchievementsIds;
@@ -99,6 +112,10 @@ public class PlayerData:MonoBehaviour
     public void setIslandNumber(int newIslandNumber)
     {
         islandNumber = newIslandNumber;
+    }
+    public void setFTDS(bool status)
+    {
+        firstTryDuckShooter = status;
     }
     
 }

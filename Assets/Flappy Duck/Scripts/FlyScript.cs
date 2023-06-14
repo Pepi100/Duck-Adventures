@@ -62,6 +62,7 @@ public class FlyScript : MonoBehaviour
         // rb.bodyType= RigidbodyType2D.Static;
         if(score >= 20)
         {
+            PlayerData.instance.DoneMinigame(1);
             SceneManager.LoadScene("Win2");
             
             if(score >= 30)
