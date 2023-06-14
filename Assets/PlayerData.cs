@@ -24,7 +24,7 @@ public class PlayerData:MonoBehaviour
     private bool[] achievementsIds = new bool[]{false, false, false, false, false, false, false};
     private int x = 0, y = 0;
     private bool[] gamesDone = new bool[]{false, false, false, false, false};
-    private int islandNumber = 2; 
+    private int islandNumber = 1; 
 
     ///Call this method with the id of the achievement to mark as checked
 
