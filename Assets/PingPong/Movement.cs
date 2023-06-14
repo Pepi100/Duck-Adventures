@@ -40,11 +40,11 @@ public class Movement : MonoBehaviour
 
     private void AIControl()
     {
-        if(ball.transform.position.y > transform.position.y + 0.5f)
+        if(ball.transform.position.y > transform.position.y + 1f)
         {
             playerMove = new Vector2(0, 1);
         }
-        else if(ball.transform.position.y < transform.position.y - 0.5f)
+        else if(ball.transform.position.y < transform.position.y - 1f) // 
         {
             playerMove = new Vector2(0, -1);
         }
@@ -52,6 +52,7 @@ public class Movement : MonoBehaviour
         {
             playerMove = new Vector2(0, 0);
         }
+    
     }
 
     private void FixedUpdate()

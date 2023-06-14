@@ -27,7 +27,10 @@ public class BallMovement : MonoBehaviour
 
     private void StartBall()
     {
-        rb.velocity = new Vector2(-1,0) * (initialSpeed + hitCounter * speedIncrease);
+        float xDirection = Random.Range(0,2) == 0 ? -1 : 1;
+        float yDirection = Random.Range(0,2) == 0 ? -1 : 1;
+        rb.velocity = new Vector2(xDirection, yDirection) * (initialSpeed + hitCounter * speedIncrease);
+        ///rb.velocity = new Vector2(-1,0) * (initialSpeed + hitCounter * speedIncrease);
     }
 
     private void ResetBall()
@@ -67,11 +70,23 @@ public class BallMovement : MonoBehaviour
         rb.velocity = new Vector2(xDirection, yDirection) * (initialSpeed + hitCounter * speedIncrease);
     }
 
+    //function for making the ball bounce off top and down border without scoring
+    private void BounceOffBorder()
+    {
+        Vector2 currentVelocity = rb.velocity;
+        rb.velocity = new Vector2(currentVelocity.x, -currentVelocity.y);
+    }
+
     private void OnCollisionEnter2D( Collision2D collision)
     {
         if(collision.gameObject.name == "Player" || collision.gameObject.name == "AI")
         {
             PlayerBounce(collision.transform);
+        }
+        else if(collision.gameObject.name == "TopBorder" || collision.gameObject.name == "BottomBorder")
+        {
+            //rb.velocity = new Vector2(rb.velocity.x, -rb.velocity.y);
+            BounceOffBorder();
         }
     }
 
@@ -88,5 +103,20 @@ public class BallMovement : MonoBehaviour
             ResetBall();
             AIScore.text = (int.Parse(AIScore.text) + 1).ToString();
         }
+
+        if(playerScore.text == "3")
+        {
+            playerScore.text = "0";
+            AIScore.text = "0";
+            ///LoadScene("Win");
+           
+        }
+        else if(AIScore.text == "3")
+        {
+            playerScore.text = "0";
+            AIScore.text = "0";
+            //LoadScene("Lose");  
+        }
     }
+
 }
