@@ -603,12 +603,7 @@ GameObject:
   - component: {fileID: 1578341926}
   - component: {fileID: 1578341928}
   - component: {fileID: 1578341927}
-<<<<<<< HEAD
-  - component: {fileID: 1578341929}
-  m_Layer: 0
-=======
   m_Layer: 6
->>>>>>> 21aa60520f16d4a96fca9d20fdc7dcc47106d5bc
   m_Name: Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,12 +624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1578341923}
   velocity: 5
-<<<<<<< HEAD
   scoreText: {fileID: 639222223}
   audioSrc: {fileID: 1578341929}
-=======
-  scoreText: {fileID: 868529933}
->>>>>>> 21aa60520f16d4a96fca9d20fdc7dcc47106d5bc
 --- !u!50 &1578341923
 Rigidbody2D:
   serializedVersion: 4
