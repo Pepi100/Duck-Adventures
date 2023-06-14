@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -128,6 +129,7 @@ public class GameManager : MonoBehaviour
             SetScore(score + 1000);
             SetLives(lives + 1);
             Invoke(nameof(NewLevel), 1f);
+            SceneManager.LoadScene("Win3");
         }
         else 
         {
