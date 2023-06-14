@@ -6,7 +6,7 @@ public class TouchMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 touchStartPosition;
-    private bool isTouching;
+    private bool isTouching = false;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class TouchMovement : MonoBehaviour
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-
+            Debug.Log("Is touching");
             if (touch.phase == TouchPhase.Began)
             {
                 // Store the touch start position
