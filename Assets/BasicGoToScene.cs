@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Continue : MonoBehaviour
+public class BasicGoToScene : MonoBehaviour
 {
+    public string sceneToLoad;
     public void LoadGame()
     {
-        SceneManager.LoadScene("First Island");
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
