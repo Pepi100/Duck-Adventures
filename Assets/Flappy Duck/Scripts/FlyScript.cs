@@ -57,12 +57,9 @@ public class FlyScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Dead");
-        // scoreText.text = "Ai murit, fraiere";
-        // rb.bodyType= RigidbodyType2D.Static;
         if(score >= 20)
         {
-            SceneManager.LoadScene("Win2");
+            SceneManager.LoadScene("Win");
             
             if(score >= 30)
             {

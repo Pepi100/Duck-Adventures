@@ -190,7 +190,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &342886767
@@ -303,7 +303,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &868529931
@@ -603,6 +603,7 @@ GameObject:
   - component: {fileID: 1578341926}
   - component: {fileID: 1578341928}
   - component: {fileID: 1578341927}
+  - component: {fileID: 1578341929}
   m_Layer: 6
   m_Name: Duck
   m_TagString: Untagged
@@ -624,7 +625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1578341923}
   velocity: 5
-  scoreText: {fileID: 639222223}
+  scoreText: {fileID: 868529933}
   audioSrc: {fileID: 1578341929}
 --- !u!50 &1578341923
 Rigidbody2D:
