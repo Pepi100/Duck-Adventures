@@ -9,7 +9,7 @@ public static class SaveSystem
         string path = Application.persistentDataPath + "/player.data";
         FileStream stream = new FileStream(path, FileMode.Create);
         PlayerData data = PlayerData.instance;
-        DOTPlayerData dpd = new DOTPlayerData();
+        DTOPlayerData dpd = new DTOPlayerData();
         formatter.Serialize(stream, dpd);
         stream.Close();
         Debug.Log("saved file at location " + path);
@@ -21,7 +21,7 @@ public static class SaveSystem
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
 
-            DOTPlayerData dpd = formatter.Deserialize(stream) as DOTPlayerData;
+            DTOPlayerData dpd = formatter.Deserialize(stream) as DTOPlayerData;
             dpd.createSingleton();
             stream.Close();
 

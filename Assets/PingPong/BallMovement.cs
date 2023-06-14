@@ -106,8 +106,15 @@ public class BallMovement : MonoBehaviour
 
         if(playerScore.text == "3")
         {
+            if(AIScore.text == "0"){
+                PlayerData.instance.Add(1);
+            }
             playerScore.text = "0";
             AIScore.text = "0";
+            
+            PlayerData.instance.DoneMinigame(2);
+            Debug.Log(PlayerData.instance.getAchievements());
+            Debug.Log(PlayerData.instance.getGamesDone());
             ///LoadScene("Win");
            
         }
