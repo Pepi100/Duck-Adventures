@@ -17,11 +17,16 @@ public class PlayerMovement : MonoBehaviour
     bool facingLeft = false;
     bool isMoving = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         Application.targetFrameRate = 100;
+        PlayerData pd = PlayerData.instance;
+        transform.position = new Vector3(pd.getX(), pd.getY(), pd.getZ());
+        Debug.Log(transform.position);
+        Debug.Log(pd.getIslandNumber());
     }
 
 

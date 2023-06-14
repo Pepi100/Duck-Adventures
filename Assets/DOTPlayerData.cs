@@ -8,7 +8,7 @@ using UnityEngine;
 public class DOTPlayerData
 {
     private bool[] achievementsIds;
-    private int x, y;
+    private float x, y, z;
     private bool[] gamesDone;
     private int islandNumber;
 
@@ -18,6 +18,7 @@ public class DOTPlayerData
         achievementsIds = player.getAchievements();
         x = player.getX();
         y = player.getY();
+        z = player.getZ();
         gamesDone = player.getGamesDone();
         islandNumber = player.getIslandNumber();
     }
@@ -26,10 +27,13 @@ public class DOTPlayerData
     {
         PlayerData player = PlayerData.instance;
         player.setAchievements(achievementsIds);
-        player.setX(x);
-        player.setY(y);
+        if(player.getX() == 0 && player.getY() == 0 && player.getZ() == 0){
+            player.setX(x);
+            player.setY(y);
+            player.setZ(z);
+            player.setIslandNumber(islandNumber);
+        }
         player.setGamesDone(gamesDone);
-        player.setIslandNumber(islandNumber);
     }
 
     

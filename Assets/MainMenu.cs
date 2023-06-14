@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
         Debug.Log("am dat play");
         SaveSystem.LoadPlayer();
         PlayerData playerdata = PlayerData.instance;
+        Debug.Log(playerdata.getIslandNumber());
         if(playerdata.getIslandNumber() == 1)
             SceneManager.LoadScene("First Island");
         else
