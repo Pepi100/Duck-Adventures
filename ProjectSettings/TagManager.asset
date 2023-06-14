@@ -16,6 +16,8 @@ TagManager:
   - Bullet
   - Missile
   - Ground
+  - Obstacle
+  - Platform
   - 
   - 
   - 
