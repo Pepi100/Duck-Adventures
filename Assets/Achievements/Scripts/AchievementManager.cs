@@ -24,7 +24,7 @@ public class AchievementManager : MonoBehaviour
     void Start()
     {
         ///Get all the achievement ids from the player data and check if active
-        Dictionary<int, bool> achivsIds = PlayerData.instance.getAchievements();
+        bool[] achivsIds = PlayerData.instance.getAchievements();
         
         for(int i = 0; i <= 5; ++i){
             if(achivsIds[i+1]){
