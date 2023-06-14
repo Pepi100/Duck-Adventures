@@ -27,13 +27,16 @@ EditorBuildSettings:
     path: Assets/Duck Shooter/Scenes/Lose.unity
     guid: 3d0a89a97d7b49244a8e015890b5d634
   - enabled: 1
+    path: Assets/PingPong/PingPong.unity
+    guid: 2de8535a2b653314b95337e448325a24
+  - enabled: 1
     path: Assets/Achievements/Scenes/Achievements.unity
     guid: 2191dd81c959f824aa8bae45a55c9aa4
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 512514d965f92564188711bbe01bcb80
   - enabled: 0
-    path: Assets/Flappy Duck/Scenes/Menu.unity
+    path: 
     guid: 8ad81f4e6a0135143bde9f426d8a15f0
   - enabled: 1
     path: Assets/Flappy Duck/Scenes/Lose2.unity

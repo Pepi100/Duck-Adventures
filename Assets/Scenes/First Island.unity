@@ -561,6 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Crossy Duck
+  player: {fileID: 105276884}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,7 +4048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b6635c4f449b1e4b8dd1882b4a4ff7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Menu
+  sceneToLoad: Flappy Duck
+  player: {fileID: 105276884}
 --- !u!1 &932280306
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,7 +4087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 356.2, y: 169.9}
+  m_AnchoredPosition: {x: 350, y: 169.9}
   m_SizeDelta: {x: 0.7591, y: 0.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &932280308
@@ -4172,11 +4174,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1701162829}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: GoBack
-        m_Mode: 1
+        m_MethodName: GoBackAndSave
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 105276884}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4359,11 +4361,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 130
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 130
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -105692,8 +105694,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: HOME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -105936,6 +105938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Second Island
+  player: {fileID: 105276884}
 --- !u!1 &1701162824
 GameObject:
   m_ObjectHideFlags: 0
@@ -108585,7 +108588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b6635c4f449b1e4b8dd1882b4a4ff7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Shoot
+  sceneToLoad: PingPong
+  player: {fileID: 105276884}
 --- !u!1 &2121204407
 GameObject:
   m_ObjectHideFlags: 0
