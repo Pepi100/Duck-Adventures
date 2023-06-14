@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
                 PlayerData.instance.Add(4);
             }
             PlayerData.instance.DoneMinigame(3);
-            SceneManager.LoadScene("Win3");
+            SceneManager.LoadScene("Win");
         }
         else 
         {
