@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class DTOPlayerData
+public class DOTPlayerData
 {
     private bool[] achievementsIds;
     private float x, y, z;
@@ -13,7 +13,7 @@ public class DTOPlayerData
     private int islandNumber;
     private bool firstTimeDuckShooter;
 
-    public DTOPlayerData ()
+    public DOTPlayerData ()
     {
         PlayerData player = PlayerData.instance;
         achievementsIds = player.getAchievements();
