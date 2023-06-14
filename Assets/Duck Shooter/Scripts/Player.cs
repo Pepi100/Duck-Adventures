@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GG.Infrastructure.Utils.Swipe;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private SwipeListener swipeListener;
+
     public Bullet laserPrefab;
 
-    public Rigidbody2D rb;
-
-    public float speed = 5.0f;
+    public float speed = 40.0f;
 
     private bool _bulletActive;
 
@@ -28,71 +29,53 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        if(! _bulletActive)
+        if (!_bulletActive)
         {
             Bullet bullet = Instantiate(this.laserPrefab, this.transform.position, Quaternion.identity);
             bullet.destroyed += BulletDestroyed;
             _bulletActive = true;
         }
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.gameObject.layer == LayerMask.NameToLayer("Missile"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.gameObject.layer == LayerMask.NameToLayer("Missile"))
         {
             SceneManager.LoadScene("Lose");
         }
     }
 
-    private void Update()
+    private void OnEnable()
     {
-        float maxx;
-        inputHorizontal = Input.GetAxisRaw("Horizontal");
-        inputVertical = Input.GetAxisRaw("Vertical");
-
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            this.transform.position += Vector3.left * this.speed * Time.deltaTime;
-        }
-        else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            this.transform.position += Vector3.right * this.speed * Time.deltaTime;
-        }
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            audioSrc.Play();
-            Shoot();
-
-        }
-
-        maxx = Mathf.Abs(inputHorizontal);
-        animator.SetFloat("speed", maxx);
+        swipeListener.OnSwipe.AddListener(OnSwipe);
     }
 
-    void FixedUpdate()
+    private void OnSwipe(string swipe)
     {
-        if (inputHorizontal > 0 && facingLeft)
+        Debug.Log(swipe); 
+         
+        switch(swipe)
         {
-            Flip();
+            case "Left":
+                this.transform.position += Vector3.left * this.speed * Time.deltaTime;
+                break;
+            case "Right":
+                this.transform.position += Vector3.right * this.speed * Time.deltaTime;
+                break;
+            default:
+                Shoot();
+                break;
         }
-        if (inputHorizontal < 0 && !facingLeft)
-        {
-            Flip();
-        }
-
+        // if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        // {
+        //     Shoot();
+        // }
     }
 
-    void Flip()
+    private void OnDisable()
     {
-        var player = GameObject.FindGameObjectWithTag("Player");
-        Vector3 currentScale = player.transform.localScale;
-        currentScale.x *= -1;
-        player.transform.localScale = currentScale;
-        facingLeft = !facingLeft;
+        swipeListener.OnSwipe.RemoveListener(OnSwipe);
     }
-
-
 
 }
