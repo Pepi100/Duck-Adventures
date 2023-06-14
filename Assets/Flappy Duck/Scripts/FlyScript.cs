@@ -10,6 +10,7 @@ public class FlyScript : MonoBehaviour
     public Rigidbody2D rb;
     public float velocity = 1;
     public TextMeshProUGUI scoreText;
+    public AudioSource audioSrc;
 
     private int score;
 
@@ -30,32 +31,49 @@ public class FlyScript : MonoBehaviour
         {
             //jump
             rb.velocity = Vector2.up * velocity;
+            audioSrc.Play();
 
 
         }
 
 
 
-        
-    }
 
+
+
+    }
 
     private void OnTriggerExit2D(Collider2D col)
     {
-        if(col.gameObject.CompareTag("ScoreTrigger"))
+        if (col.gameObject.CompareTag("ScoreTrigger"))
         {
             score++;
             scoreText.text = score.ToString();
         }
 
-      Debug.Log(scoreText.text);
+        Debug.Log(scoreText.text);
 
     }
 
-
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        scoreText.text = "Ai murit, fraiere";
+        Debug.Log("Dead");
+        // scoreText.text = "Ai murit, fraiere";
+        // rb.bodyType= RigidbodyType2D.Static;
+        if(score >= 20)
+        {
+            SceneManager.LoadScene("Win2");
+            
+            if(score >= 30)
+            {
+                PlayerData.instance.Add(2);
+            }
+        }
+        else
+        {
+            SceneManager.LoadScene("Lose2");
+        }
+        
+
     }
 }
