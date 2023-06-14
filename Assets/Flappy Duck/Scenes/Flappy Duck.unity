@@ -669,7 +669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1578341923}
   velocity: 5
-  scoreText: {fileID: 639222223}
+  scoreText: {fileID: 868529933}
   audioSrc: {fileID: 1578341929}
 --- !u!50 &1578341923
 Rigidbody2D:

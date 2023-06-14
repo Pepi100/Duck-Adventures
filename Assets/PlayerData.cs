@@ -23,6 +23,7 @@ public class PlayerData : MonoBehaviour
 
     private bool[] achievementsIds = new bool[] { false, false, false, false, false, false, false };
     private int x = 0, y = 0;
+    
     private bool[] gamesDone = new bool[] { false, false , false, false, false };
                             //           1= Flappy, 2=PingPong, 3=Crossy, 4=Shooter
     private int islandNumber = 2;
