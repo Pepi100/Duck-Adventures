@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     public Bullet laserPrefab;
 
-    public float speed = 40.0f;
+    public float speed = 400.0f;
 
     private bool _bulletActive;
 
@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
     {
         if (!_bulletActive)
         {
+            audioSrc.Play();
             Bullet bullet = Instantiate(this.laserPrefab, this.transform.position, Quaternion.identity);
             bullet.destroyed += BulletDestroyed;
             _bulletActive = true;
@@ -43,12 +44,14 @@ public class Player : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.gameObject.layer == LayerMask.NameToLayer("Missile"))
         {
             SceneManager.LoadScene("Lose");
+            PlayerData.instance.setFTDS(false);
         }
     }
 
     private void OnEnable()
     {
         swipeListener.OnSwipe.AddListener(OnSwipe);
+        
     }
 
     private void OnSwipe(string swipe)

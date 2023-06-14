@@ -129,6 +129,15 @@ public class GameManager : MonoBehaviour
             SetScore(score + 1000);
             SetLives(lives + 1);
             Invoke(nameof(NewLevel), 1f);
+            if (score > 500)
+            {
+                PlayerData.instance.Add(3);
+            }
+            if (lives >= 5)
+            {
+                PlayerData.instance.Add(4);
+            }
+            PlayerData.instance.DoneMinigame(3);
             SceneManager.LoadScene("Win3");
         }
         else 

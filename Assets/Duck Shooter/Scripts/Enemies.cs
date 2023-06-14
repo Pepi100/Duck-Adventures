@@ -32,7 +32,12 @@ public class Enemies : MonoBehaviour
         this.amountKilled++;
         if (this.amountKilled >= this.totalEnemies)
         {
+            if (PlayerData.instance.getFTDS())
+            { 
+                PlayerData.instance.Add(5); 
+            }
             SceneManager.LoadScene("Win");
+            PlayerData.instance.DoneMinigame(4);
         }
     }
 
@@ -86,6 +91,7 @@ public class Enemies : MonoBehaviour
     public void Start()
     {
         InvokeRepeating(nameof(BulletAttack), this.bulletAttackRate, this.bulletAttackRate);
+       
     }
 
     private void Update()

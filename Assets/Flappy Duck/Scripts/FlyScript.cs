@@ -59,6 +59,8 @@ public class FlyScript : MonoBehaviour
     {
         if(score >= 20)
         {
+
+            PlayerData.instance.DoneMinigame(1);
             SceneManager.LoadScene("Win");
             
             if(score >= 30)
