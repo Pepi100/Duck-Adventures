@@ -20,7 +20,7 @@ public class FlyScript : MonoBehaviour
     {
         score = 0;
         rb.velocity = Vector2.up * velocity;
-
+        ScreenChanger.instance.SetPortrait();
     }
 
     // Update is called once per frame

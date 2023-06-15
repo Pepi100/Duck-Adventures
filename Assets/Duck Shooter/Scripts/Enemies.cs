@@ -36,7 +36,7 @@ public class Enemies : MonoBehaviour
             { 
                 PlayerData.instance.Add(5); 
             }
-            SceneManager.LoadScene("Win");
+            SceneManager.LoadScene("GameDone");
             PlayerData.instance.DoneMinigame(4);
         }
     }

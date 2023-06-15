@@ -14,7 +14,7 @@ public class GoToScene : MonoBehaviour
         if (sceneToLoad == "Second Island")
         {
             bool[] gamesDone = PlayerData.instance.getGamesDone();
-            if (true || (gamesDone[1] && gamesDone[2] && gamesDone[3])){
+            if (gamesDone[1] && gamesDone[2] && gamesDone[3]){
                 PlayerData pd = PlayerData.instance;
                 pd.setX(-12.5);
                 pd.setY(-28.5);

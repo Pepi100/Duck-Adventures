@@ -27,11 +27,20 @@ EditorBuildSettings:
     path: Assets/Duck Shooter/Scenes/Lose.unity
     guid: 3d0a89a97d7b49244a8e015890b5d634
   - enabled: 1
-    path: Assets/PingPong/PingPong.unity
+    path: Assets/PingPong/Scenes/PingPong.unity
     guid: 2de8535a2b653314b95337e448325a24
+  - enabled: 1
+    path: Assets/PingPong/Scenes/Lose3.unity
+    guid: fc4a61e3de1ed304eb9ac503513bb898
+  - enabled: 1
+    path: Assets/PingPong/Scenes/Win3.unity
+    guid: b212598da97df1543ace3a0ab48ea949
   - enabled: 1
     path: Assets/Achievements/Scenes/Achievements.unity
     guid: 2191dd81c959f824aa8bae45a55c9aa4
+  - enabled: 1
+    path: Assets/Scenes/GameDone.unity
+    guid: c8535a696d55b7544a62bcac9761c6e3
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 512514d965f92564188711bbe01bcb80
