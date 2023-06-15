@@ -16,4 +16,4 @@
 4. Now, you can share the gave via the .apk app. Install via **Package Installer** on the Android Device. Enjoy!
 
 ## Favicon
-<img src="./gallery/favicon.jpeg" alt="Duck Adventures Favicon" />
+<img src="./gallery/favicon.png" alt="Duck Adventures Favicon" />
