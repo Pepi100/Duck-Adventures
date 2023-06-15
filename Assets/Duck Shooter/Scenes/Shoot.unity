@@ -1642,7 +1642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swipeListener: {fileID: 2120443999}
   laserPrefab: {fileID: -4262348156943483496, guid: 15ee36871ff050648a05ae58784c8333, type: 3}
-  speed: 400
+  speed: 100
   animator: {fileID: 0}
   audioSrc: {fileID: 2120444000}
 --- !u!114 &2120443999
