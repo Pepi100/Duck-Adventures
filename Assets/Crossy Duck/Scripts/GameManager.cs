@@ -24,11 +24,11 @@ public class GameManager : MonoBehaviour
     {
         homes = FindObjectsOfType<Home>();
         duck = FindObjectOfType<Demo>();
+        ScreenChanger.instance.SetPortrait();
     }
 
     private void Start()
     {
-        ScreenChanger.instance.SetPortrait();
         NewGame();
     }
 
@@ -75,15 +75,21 @@ public class GameManager : MonoBehaviour
 
     public void Died()
     {
-        SetLives(lives - 1);
+        if(lives - 1 < 0){
+            SetLives(0);
+        }
+        else
+        {
+            SetLives(lives - 1);
+        }
 
         if(lives > 0)
         {
-            Invoke(nameof(Respawn), 0.05f);
+            Invoke(nameof(Respawn), 0.01f);
         }
         else 
         {
-            Invoke(nameof(GameOver), 0.05f);
+            Invoke(nameof(GameOver), 0.01f);
         }
     }
 
@@ -143,7 +149,7 @@ public class GameManager : MonoBehaviour
         }
         else 
         {
-            Invoke(nameof(Respawn), 0.05f);
+            Invoke(nameof(Respawn), 0.01f);
         }
     }
 
