@@ -19,7 +19,7 @@ All the user stories can be found <a href= "https://docs.google.com/document/d/1
 <a href= "https://drive.google.com/drive/folders/1YJ_bbnfNTG1WrFaM2RlyfEvjBGBThloZ?usp=sharing" > Link </a>
 
 ## Backlog
-<a href= "https://github.com/Pepi100/Duck-Adventures/issues?q=" > Link to issues  </a>
+<a href= "https://github.com/Pepi100/Duck-Adventures/issues?q=is%3Aissue" > Link to issues  </a>
 
 ## UML - State diagram
 
