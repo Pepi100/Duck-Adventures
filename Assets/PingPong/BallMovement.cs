@@ -12,6 +12,8 @@ public class BallMovement : MonoBehaviour
     [SerializeField] private Text playerScore;
     [SerializeField] private Text AIScore;
 
+    public AudioSource audioSrc;
+
     private int hitCounter;
     private Rigidbody2D rb;
 
@@ -83,6 +85,7 @@ public class BallMovement : MonoBehaviour
     {
         if(collision.gameObject.name == "Player" || collision.gameObject.name == "AI")
         {
+            audioSrc.Play();
             PlayerBounce(collision.transform);
         }
         else if(collision.gameObject.name == "TopBorder" || collision.gameObject.name == "BottomBorder")

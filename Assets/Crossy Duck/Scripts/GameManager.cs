@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text livesText;
     public TMP_Text timeText;
+    public AudioSource audioSrc;
 
     private int score;
     private int lives;
@@ -75,6 +76,7 @@ public class GameManager : MonoBehaviour
 
     public void Died()
     {
+        audioSrc.Play();
         SetLives(lives - 1);
 
         if(lives > 0)
