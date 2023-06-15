@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        ScreenChanger.instance.SetPortrait();
         NewGame();
     }
 
@@ -78,11 +79,11 @@ public class GameManager : MonoBehaviour
 
         if(lives > 0)
         {
-            Invoke(nameof(Respawn), 0.1f);
+            Invoke(nameof(Respawn), 0.05f);
         }
         else 
         {
-            Invoke(nameof(GameOver), 0.1f);
+            Invoke(nameof(GameOver), 0.05f);
         }
     }
 
@@ -142,7 +143,7 @@ public class GameManager : MonoBehaviour
         }
         else 
         {
-            Invoke(nameof(Respawn), 0.1f);
+            Invoke(nameof(Respawn), 0.05f);
         }
     }
 

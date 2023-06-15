@@ -5,10 +5,7 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     void Start () {
-        Screen.orientation = ScreenOrientation.Portrait;
-        //Screen.autorotateToPortrait = true;
-        //Screen.autorotateToLandscapeRight = false;
-        //Screen.orientation = ScreenOrientation.AutoRotation;
+        ScreenChanger.instance.SetPortrait();
     }
     
     // Update is called once per frame

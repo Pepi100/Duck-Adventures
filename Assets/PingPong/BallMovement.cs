@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class BallMovement : MonoBehaviour
 {
@@ -106,16 +108,20 @@ public class BallMovement : MonoBehaviour
 
         if(playerScore.text == "3")
         {
+            if( AIScore.text == "0")
+            {
+                PlayerData.instance.Add(1);
+            }
+            PlayerData.instance.DoneMinigame(2);
             playerScore.text = "0";
             AIScore.text = "0";
-            ///LoadScene("Win");
-           
+            SceneManager.LoadScene("Win3");
         }
         else if(AIScore.text == "3")
         {
             playerScore.text = "0";
             AIScore.text = "0";
-            //LoadScene("Lose");  
+            SceneManager.LoadScene("Lose3");
         }
     }
 

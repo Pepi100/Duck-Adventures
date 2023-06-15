@@ -26,10 +26,10 @@ public class PlayerData : MonoBehaviour
     
     private int islandNumber = 1; 
     private bool[] achievementsIds = new bool[] { false, false, false, false, false, false, false };
-
+                                                    //1=pingpong, 2=flappy, 3=crossy1, 4=crossy2, 5=duckshooter, 6=all
     
     private bool[] gamesDone = new bool[] { false, false , false, false, false };
-                            //           1= Flappy, 2=PingPong, 3=Crossy, 4=Shooter
+                                                //1= Flappy, 2=PingPong, 3=Crossy, 4=Shooter
   
     private bool firstTryDuckShooter = false;
 
@@ -58,12 +58,13 @@ public class PlayerData : MonoBehaviour
         for(int i = 0; i <= 6; ++i)
             achievementsIds[i] = false;
 
-        for(int i = 0; i <= 5; ++i)
+        for(int i = 0; i <= 4; ++i)
             gamesDone[i] = false;
 
-        x = 0; y = 0;
+        x = 0; y = 0; z = 0;
         ///sa salvam pozitia
         islandNumber = 1;
+        firstTryDuckShooter = false;
     }
 
     ///Getter method
@@ -131,5 +132,4 @@ public class PlayerData : MonoBehaviour
     {
         firstTryDuckShooter = status;
     }
-    
 }

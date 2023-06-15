@@ -28,16 +28,17 @@ public class DOTPlayerData
     public void createSingleton()
     {
         PlayerData player = PlayerData.instance;
-        player.setAchievements(achievementsIds);
         if(player.getX() == 0 && player.getY() == 0 && player.getZ() == 0){
             player.setX(x);
             player.setY(y);
             player.setZ(z);
             player.setIslandNumber(islandNumber);
+            player.setAchievements(achievementsIds);
+            player.setGamesDone(gamesDone);
+            player.setIslandNumber(islandNumber);
+            player.setFTDS(firstTimeDuckShooter);
         }
-        player.setGamesDone(gamesDone);
-        player.setIslandNumber(islandNumber);
-        player.setFTDS(firstTimeDuckShooter);
+        
     }
 
     

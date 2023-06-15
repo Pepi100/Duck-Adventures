@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.99182, y: 0.1931}
-  m_SizeDelta: {x: -315.9196, y: -58.128}
+  m_AnchoredPosition: {x: -253.2942, y: 3.6491}
+  m_SizeDelta: {x: -653.619, y: -120.3358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40864996
 MonoBehaviour:
@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.65, y: 119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: -452, y: 250}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195484067
 MonoBehaviour:
@@ -314,8 +314,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372, y: 192}
-  m_SizeDelta: {x: 0.96, y: 0.32}
+  m_AnchoredPosition: {x: 803, y: 449}
+  m_SizeDelta: {x: 2, y: 0.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227210418
 MonoBehaviour:
@@ -446,7 +446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.006439209, y: 0.016479492}
+  m_AnchoredPosition: {x: -0.076, y: 0.042}
   m_SizeDelta: {x: 110.560486, y: 35.78839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254960148
@@ -498,8 +498,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 1.0749512, y: -0.000061035156, z: -22.30761, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -629,7 +629,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 59, y: -9.3481}
+  m_AnchoredPosition: {x: 16, y: -14.616}
   m_SizeDelta: {x: -193.5422, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &456094410
@@ -652,9 +652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish all three minigames
-
-'
+  m_text: Finish Crossy Duck in first try
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -681,8 +679,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -717,7 +715,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 206.77332, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -766,8 +764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -120.0565, y: 2.479}
-  m_SizeDelta: {x: -312.6434, y: -54.7833}
+  m_AnchoredPosition: {x: -254.7143, y: 2.479004}
+  m_SizeDelta: {x: -662.4434, y: -124.9497}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &517714258
 MonoBehaviour:
@@ -842,7 +840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 53, y: -9.3481}
+  m_AnchoredPosition: {x: 28.3, y: -13.158}
   m_SizeDelta: {x: -193.54218, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &553613870
@@ -865,9 +863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish Flappy Duck with score 30+.
-
-'
+  m_text: Finish Flappy Duck with score 30+
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -894,8 +890,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -930,7 +926,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 172.04736, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1027,8 +1023,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.65, y: -119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: -452, y: -300}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564038818
 MonoBehaviour:
@@ -1103,8 +1099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -120.7426, y: 3.092}
-  m_SizeDelta: {x: -313.5102, y: -54.1163}
+  m_AnchoredPosition: {x: -258.4704, y: 4.9917}
+  m_SizeDelta: {x: -659.2543, y: -122.5053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599698478
 MonoBehaviour:
@@ -1179,7 +1175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 50.88188, y: -6.9273987}
+  m_AnchoredPosition: {x: 28, y: -11.397}
   m_SizeDelta: {x: -189.306, y: -81.3636}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607149309
@@ -1202,7 +1198,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish Flappy Duck with score 30+.
+  m_text: 'Finish Flappy Duck with score 30+
 
 '
   m_isRightToLeft: 0
@@ -1231,8 +1227,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1267,7 +1263,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 176.54846, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1316,8 +1312,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -121.1398, y: 1.5797}
-  m_SizeDelta: {x: -314.8271, y: -55.2523}
+  m_AnchoredPosition: {x: -256.069, y: 4.2895}
+  m_SizeDelta: {x: -650.8773, y: -113.4789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &616710311
 MonoBehaviour:
@@ -1404,8 +1400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.7, y: 0.0000017881}
-  m_SizeDelta: {x: 831.097, y: 402.8003}
+  m_AnchoredPosition: {x: 0, y: -23.405396}
+  m_SizeDelta: {x: 1834.2878, y: 946.1968}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660644420
 MonoBehaviour:
@@ -1526,8 +1522,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.69006, y: 119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: 460, y: 250}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751383165
 MonoBehaviour:
@@ -1633,7 +1629,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56.6239, y: -6.1592}
+  m_AnchoredPosition: {x: 191, y: -17}
   m_SizeDelta: {x: -185.2556, y: -84.3233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755759058
@@ -1656,9 +1652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish Duck Shooter within 30sec.
-
-'
+  m_text: Win Duck Pong with score 3-0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1685,8 +1679,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1721,7 +1715,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 1.0749512, y: 0, z: 166.0354, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1770,8 +1764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -121.8721, y: 1.9572983}
-  m_SizeDelta: {x: -314.0745, y: -54.14}
+  m_AnchoredPosition: {x: -253.619, y: 6.1088}
+  m_SizeDelta: {x: -653.9434, y: -117.1197}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791817760
 MonoBehaviour:
@@ -1846,8 +1840,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.31061, y: 0.27009964}
-  m_SizeDelta: {x: -314.557, y: -58.2821}
+  m_AnchoredPosition: {x: -252.7265, y: 7.3934}
+  m_SizeDelta: {x: -652.9529, y: -119.6887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809369019
 MonoBehaviour:
@@ -1924,8 +1918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.69, y: -119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: 460, y: -300}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826840948
 MonoBehaviour:
@@ -2070,8 +2064,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.69, y: 119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: 459.99988, y: 250}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1010941653
 MonoBehaviour:
@@ -2148,8 +2142,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.65, y: 0}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: -452, y: -12}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018827076
 MonoBehaviour:
@@ -2224,8 +2218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.74469, y: 0.5584984}
-  m_SizeDelta: {x: -315.4253, y: -58.8589}
+  m_AnchoredPosition: {x: -251.5217, y: 7.015}
+  m_SizeDelta: {x: -657.3697, y: -118.9311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095176052
 MonoBehaviour:
@@ -2346,8 +2340,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.69006, y: 0}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: 459.99994, y: -20}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151374371
 MonoBehaviour:
@@ -2422,7 +2416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 59, y: -9.3480835}
+  m_AnchoredPosition: {x: 7, y: -13.416}
   m_SizeDelta: {x: -193.54218, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162678048
@@ -2445,9 +2439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish all three minigames
-
-'
+  m_text: Finish Crossy Duck in first try
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -2474,8 +2466,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2510,7 +2502,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 215.70166, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2559,7 +2551,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 58, y: -9.3481}
+  m_AnchoredPosition: {x: 35, y: -9.3479}
   m_SizeDelta: {x: -193.5422, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174387218
@@ -2582,9 +2574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish Crossy Duck within 30sec.
-
-'
+  m_text: Finish Crossy Duck with score 300+
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -2611,8 +2601,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2647,7 +2637,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 162.98053, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2696,7 +2686,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 58, y: -9.3480835}
+  m_AnchoredPosition: {x: 8, y: -9.3485}
   m_SizeDelta: {x: -193.54218, y: -86.20502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1222532326
@@ -2719,9 +2709,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish Crossy Duck within 30sec.
-
-'
+  m_text: Finish Crossy Duck with score 300+
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -2748,8 +2736,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2784,7 +2772,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 179.83359, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2835,8 +2823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.65, y: 119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: -452, y: 250}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223455911
 MonoBehaviour:
@@ -2913,8 +2901,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.65, y: 0}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: -452, y: -20}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231406604
 MonoBehaviour:
@@ -2991,8 +2979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.65, y: -119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: -452, y: -300}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363451978
 MonoBehaviour:
@@ -3113,8 +3101,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.72479, y: 0.24670029}
-  m_SizeDelta: {x: -315.3855, y: -58.2353}
+  m_AnchoredPosition: {x: -253.9304, y: 5.2638}
+  m_SizeDelta: {x: -659.0521, y: -125.9652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523471126
 MonoBehaviour:
@@ -3235,8 +3223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.54959, y: -0.45899963}
-  m_SizeDelta: {x: -315.0352, y: -56.8238}
+  m_AnchoredPosition: {x: -255.375, y: 7.470299}
+  m_SizeDelta: {x: -657.2602, y: -119.8415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642009904
 MonoBehaviour:
@@ -3311,7 +3299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56, y: -9.3482}
+  m_AnchoredPosition: {x: 15, y: -9.3484}
   m_SizeDelta: {x: -193.54218, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1714741921
@@ -3363,8 +3351,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3399,7 +3387,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 206.56604, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3450,8 +3438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.69, y: 0}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: 460, y: -20}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741700160
 MonoBehaviour:
@@ -3526,7 +3514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 53.86, y: -6.179}
+  m_AnchoredPosition: {x: 0.000030517578, y: -12.8880005}
   m_SizeDelta: {x: -179.7279, y: -84.3631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771332091
@@ -3549,9 +3537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Finish Duck Shooter within 30sec.
-
-'
+  m_text: Win Duck Pong with score 3-0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -3578,8 +3564,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3614,7 +3600,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 247.20374, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3663,7 +3649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56.4, y: -9.3481}
+  m_AnchoredPosition: {x: 44, y: -9.348}
   m_SizeDelta: {x: -193.5422, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1773778852
@@ -3686,7 +3672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Win the boss battle
+  m_text: Win Duck Shooter without dying
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -3713,8 +3699,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3749,7 +3735,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 141.63715, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3846,8 +3832,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.69006, y: -119.5}
-  m_SizeDelta: {x: 380, y: 110}
+  m_AnchoredPosition: {x: 459.99988, y: -300}
+  m_SizeDelta: {x: 800, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799937930
 MonoBehaviour:
@@ -4083,7 +4069,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56.400024, y: -9.348099}
+  m_AnchoredPosition: {x: 19, y: -9.3475}
   m_SizeDelta: {x: -193.54218, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856963152
@@ -4106,7 +4092,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Win the boss battle
+  m_text: Win Duck Shooter without dying
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -4133,8 +4119,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4169,7 +4155,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 195.83127, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4218,7 +4204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56, y: -9.348206}
+  m_AnchoredPosition: {x: 38, y: -11}
   m_SizeDelta: {x: -193.54218, y: -86.205}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1860266543
@@ -4270,8 +4256,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4306,7 +4292,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0749512, y: 0, z: -0.00012207031, w: 0}
+  m_margin: {x: 164.10864, y: 0, z: -0.00012207031, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4355,8 +4341,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -120.28531, y: 0.1393013}
-  m_SizeDelta: {x: -316.5064, y: -58.0205}
+  m_AnchoredPosition: {x: -254.0832, y: 4.8175}
+  m_SizeDelta: {x: -657.0826, y: -119.7734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887137666
 MonoBehaviour:
@@ -4516,7 +4502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0.000061035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009955414
@@ -4592,8 +4578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.341095, y: 0.08470154}
-  m_SizeDelta: {x: -314.6182, y: -57.9113}
+  m_AnchoredPosition: {x: -254.386, y: 4.7895}
+  m_SizeDelta: {x: -655.2039, y: -118.5782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132046061
 MonoBehaviour:
@@ -4668,8 +4654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -119.4297, y: 0.1931}
-  m_SizeDelta: {x: -314.7953, y: -58.128}
+  m_AnchoredPosition: {x: -255.8843, y: 7.2185}
+  m_SizeDelta: {x: -652.14, y: -118.5948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2136574386
 MonoBehaviour:

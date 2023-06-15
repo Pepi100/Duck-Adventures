@@ -27,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
         transform.position = new Vector3(pd.getX(), pd.getY(), pd.getZ());
         Debug.Log(transform.position);
         Debug.Log(pd.getIslandNumber());
+
+        ///set screen landscape
+        ScreenChanger.instance.SetLandscape();
     }
 
 
